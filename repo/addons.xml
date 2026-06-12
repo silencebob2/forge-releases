@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.forge" name="Forge" provider-name="Forge Project" version="0.2.0">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="script.module.pil" version="1.1.7"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/forge.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/service.py"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">Access your content from Debrid Clouds.</summary>
+        <description lang="en">Forge is a streamlined Kodi video addon for browsing and playing content from your debrid services. Built around a modern, maintainable codebase with custom Discover, Search, and Lists windows. Intended for advanced Kodi users. You must own the content of any media you play through this addon.</description>
+        <platform>all</platform>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.</disclaimer>
+        <license>GPL-3.0-or-later</license>
+        <assets>
+            <icon>resources/media/addon_icons/forge_icon_01.png</icon>
+            <clearlogo>resources/media/addon_icons/forge_clearlogo.png</clearlogo>
+            <fanart>resources/media/forge_fanart.jpg</fanart>
+        </assets>
+        <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
+    </extension>
+</addon>
+<addon id="repository.forge" name="Forge Repository" version="0.1.0" provider-name="Forge Project">
+    <extension point="xbmc.addon.repository" name="Forge Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/silencebob2/forge-releases/main/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/silencebob2/forge-releases/main/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/silencebob2/forge-releases/main/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install and bootstrap the Forge video addon.</summary>
+        <description lang="en">Source repository for Forge. Install Forge from here; updates are then handled by Forge's built-in updater.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+</addons>
