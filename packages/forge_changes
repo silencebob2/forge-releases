@@ -1,3 +1,10 @@
+[COLOR dodgerblue][B]Version 0.2.5[/B][/COLOR]
+- Restored Easynews as a built-in source — browse and search Easynews videos and images, view account info, and play Easynews links directly
+- Added an Easynews settings section (login, language filter, playback method) under Settings → Scrapers
+- Easynews now shows a "Login Failed" toast when your username or password is wrong or expired, instead of silently returning no results
+- The actor info dialog can now search Easynews for images of that person
+
+
 [COLOR dodgerblue][B]Version 0.2.4[/B][/COLOR]
 - The Trakt, Real-Debrid, All-Debrid, and Premiumize authorization screens can now open the activation page directly in your browser
 

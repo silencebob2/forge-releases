@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.forge" name="Forge" provider-name="Forge Project" version="0.2.4">
+<addon id="plugin.video.forge" name="Forge" provider-name="Forge Project" version="0.2.5">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.pil" version="1.1.7"/>
@@ -13,8 +13,8 @@
     <extension point="xbmc.python.module" library="resources/lib/"/>
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en">Access your content from Debrid Clouds.</summary>
-        <description lang="en">Forge is a streamlined Kodi video addon for browsing and playing content from your debrid services. Built around a modern, maintainable codebase with custom Discover, Search, and Lists windows. Intended for advanced Kodi users. You must own the content of any media you play through this addon.</description>
+        <summary lang="en">Access your content from Easynews and Debrid Clouds.</summary>
+        <description lang="en">Forge is a streamlined Kodi video addon for browsing and playing content from Easynews and your debrid services. Built around a modern, maintainable codebase with custom Discover, Search, and Lists windows. Intended for advanced Kodi users. You must own the content of any media you play through this addon.</description>
         <platform>all</platform>
 		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.</disclaimer>
         <license>GPL-3.0-or-later</license>
