@@ -1,3 +1,10 @@
+[COLOR dodgerblue][B]Version 0.2.3[/B][/COLOR]
+- Fixed TMDb Lists account authorization, which was failing to start
+- The TMDb authorize screen now shows a short link and can open the page in your browser
+- Fixed "Revoke Account Authorization" for TMDb Lists, which left accounts stranded as connected
+- Improved the under-the-hood settings-migration system applied on addon updates
+
+
 [COLOR dodgerblue][B]Version 0.2.2[/B][/COLOR]
 - New "Mixed Channels" menu: a curated row per streaming service (Netflix, Disney+, Max, Prime Video, Apple TV+, and more), each combining movies & TV with crisp brand icons
 - Added a "Play Trailer" context-menu shortcut on movies, shows, seasons, and episodes
