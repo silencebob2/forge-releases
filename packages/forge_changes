@@ -1,3 +1,10 @@
+[COLOR dodgerblue][B]Version 0.2.6[/B][/COLOR]
+- New "Quick Add" context-menu item: one tap adds or removes the highlighted movie/show from a single chosen list.
+- Pick your Quick Add target in Settings > Context Menu: Trakt Watchlist, TMDb Watchlist/Favorites, Forge Favorites, or any of your Trakt/TMDb/Forge personal lists.
+- The menu entry reads "Add to ..." or "Remove from ..." depending on whether the item is already in that list.
+- When no target is set, it falls back to your Trakt Watchlist (or Forge Favorites if Trakt isn't connected).
+
+
 [COLOR dodgerblue][B]Version 0.2.5[/B][/COLOR]
 - Restored Easynews as a built-in source — browse and search Easynews videos and images, view account info, and play Easynews links directly
 - Added an Easynews settings section (login, language filter, playback method) under Settings → Scrapers
