@@ -1,3 +1,7 @@
+[COLOR dodgerblue][B]Version 0.2.4[/B][/COLOR]
+- The Trakt, Real-Debrid, All-Debrid, and Premiumize authorization screens can now open the activation page directly in your browser
+
+
 [COLOR dodgerblue][B]Version 0.2.3[/B][/COLOR]
 - Fixed TMDb Lists account authorization, which was failing to start
 - The TMDb authorize screen now shows a short link and can open the page in your browser

@@ -4,6 +4,8 @@ A Kodi 21 (Omega) video add-on. Access your content from your Debrid cloud.
 
 > You must own the content of any media you play through this add-on. The author does not host any content and has no affiliation with any content provider.
 
+*Forge is a streamlined Kodi video addon for browsing and playing content from your debrid services, built around a modernized codebase. Forked from FLAM. Licensed GPL-3.0-or-later.*
+
 ---
 
 ## Install
@@ -58,4 +60,37 @@ After install, Forge checks for new versions on its own and prompts you to updat
 
 ---
 
-*Forge is a streamlined Kodi video addon for browsing and playing content from your debrid services, built around a modernized codebase. Forked from FenLight AM. Licensed GPL-3.0-or-later.*
+## Search Integration
+
+Some Kodi skins let you set a custom add-on URL as a search provider. You can point them at Forge by editing the skin's search configuration with these paths:
+
+**Movies:**
+```
+plugin://plugin.video.forge/?mode=build_movie_list&action=tmdb_movies_search&query=
+```
+
+**TV shows:**
+```
+plugin://plugin.video.forge/?mode=build_tvshow_list&action=tmdb_tv_search&query=
+```
+
+Kodi appends the user's search term directly to the end of `query=` — no extra encoding needed.
+
+> This requires editing your skin files directly. Refer to your skin's documentation for where to set custom search providers.
+
+## Custom Widget Labels for Random Lists
+
+Some Kodi skins allow you to set a custom widget label. If you create widgets with Random Lists like `Movies Random Genres`, you can return the randomly picked genre name to your widget label.
+
+
+**[Genre Name] Movies**:
+```
+$INFO[Window(Home).Property(forge.Random Because You Watched Movies)] Movies
+```
+
+**Because You Watched... [Movie Name]**:
+```
+$INFO[Window(Home).Property(forge.Random Because You Watched Movies)]
+```
+
+This works well for Random Lists in which it picks a subcategory. Experiment with what works best for you.
