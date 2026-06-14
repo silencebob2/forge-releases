@@ -1,3 +1,11 @@
+[COLOR dodgerblue][B]Version 0.2.7[/B][/COLOR]
+- New "Skip Intro/Outro" feature: a Netflix-style Skip button appears during episode playback to jump past intros, recaps, and outros.
+- Skip timings come from crowd-sourced IntroDB data, with AniSkip used for anime episodes and an optional chapter-based fallback.
+- Configure under Settings > Playback: enable it, toggle AniSkip, and tune minimum confidence/submissions and button duration (off by default).
+- Skip-marker data is cached and can be cleared from the maintenance menu ("Clear Skip Markers Cache").
+- Stability fix: reworked the "In Progress" home widget to reduce a thread race that could crash Kodi.
+
+
 [COLOR dodgerblue][B]Version 0.2.6[/B][/COLOR]
 - New "Quick Add" context-menu item: one tap adds or removes the highlighted movie/show from a single chosen list.
 - Pick your Quick Add target in Settings > Context Menu: Trakt Watchlist, TMDb Watchlist/Favorites, Forge Favorites, or any of your Trakt/TMDb/Forge personal lists.
