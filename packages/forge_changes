@@ -1,3 +1,8 @@
+[COLOR dodgerblue][B]Version 0.2.8[/B][/COLOR]
+- New: Forge can now be used as a player for TMDBHelper — play movies and episodes from TMDBHelper widgets/lists through Forge instead of seeing "Playback through external addons is not supported".
+- Added Tools > "Install TMDBHelper Player": one tap copies the Forge player configs into TMDBHelper, adding "Forge - Auto Play" and "Forge - Source Select" to its "Play with..." menu (restart Kodi afterward).
+
+
 [COLOR dodgerblue][B]Version 0.2.7[/B][/COLOR]
 - New "Skip Intro/Outro" feature: a Netflix-style Skip button appears during episode playback to jump past intros, recaps, and outros.
 - Skip timings come from crowd-sourced IntroDB data, with AniSkip used for anime episodes and an optional chapter-based fallback.
