@@ -1,3 +1,10 @@
+[COLOR dodgerblue][B]Version 0.2.9[/B][/COLOR]
+- New "Mixed My Lists" folder under Mixed Movies & TV: blended movie + TV views of your own lists — Trakt Collection/Watchlist and TMDb Watchlist/Favorites/Recommendations.
+- Provider menus (Movies, TV Shows, and Mixed Providers) now fold each brand's per-storefront duplicates into one entry, so picking e.g. "Starz" searches all its channels instead of just one.
+- Mixed Providers list cleaned up: deduplicated, sorted alphabetically, with crisper local brand icons.
+- Mixed Channels widgets now honor a "sort_by=random" path, shuffling the rendered page.
+
+
 [COLOR dodgerblue][B]Version 0.2.8[/B][/COLOR]
 - New: Forge can now be used as a player for TMDBHelper — play movies and episodes from TMDBHelper widgets/lists through Forge instead of seeing "Playback through external addons is not supported".
 - Added Tools > "Install TMDBHelper Player": one tap copies the Forge player configs into TMDBHelper, adding "Forge - Auto Play" and "Forge - Source Select" to its "Play with..." menu (restart Kodi afterward).
