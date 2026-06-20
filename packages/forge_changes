@@ -1,3 +1,10 @@
+[COLOR dodgerblue][B]Version 0.2.11[/B][/COLOR]
+- Fixed a native Kodi crash that could happen when returning to the Home screen after adding, removing, or editing list items (or marking watched).
+- In-plugin list edits now reliably refresh both the open list and its matching Home widget once you settle back on Home.
+- "Refresh Widgets" context-menu item is now a single entry per list (dropped the redundant duplicate).
+- "Show Notification after Refresh" setting is now always configurable (previously hidden unless the periodic refresh timer was set).
+
+
 [COLOR dodgerblue][B]Version 0.2.10[/B][/COLOR]
 - Mixed Providers and Mixed Genres widgets now honor "sort_by=random": add &sort_by=random to the widget path to shuffle the displayed titles (matches Mixed Channels).
 
