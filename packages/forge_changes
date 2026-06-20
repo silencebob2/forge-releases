@@ -1,3 +1,7 @@
+[COLOR dodgerblue][B]Version 0.2.10[/B][/COLOR]
+- Mixed Providers and Mixed Genres widgets now honor "sort_by=random": add &sort_by=random to the widget path to shuffle the displayed titles (matches Mixed Channels).
+
+
 [COLOR dodgerblue][B]Version 0.2.9[/B][/COLOR]
 - New "Mixed My Lists" folder under Mixed Movies & TV: blended movie + TV views of your own lists — Trakt Collection/Watchlist and TMDb Watchlist/Favorites/Recommendations.
 - Provider menus (Movies, TV Shows, and Mixed Providers) now fold each brand's per-storefront duplicates into one entry, so picking e.g. "Starz" searches all its channels instead of just one.
