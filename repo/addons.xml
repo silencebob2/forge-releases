@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.forge" name="Forge" provider-name="Forge Project" version="0.2.12">
+<addon id="plugin.video.forge" name="Forge" provider-name="Forge Project" version="0.2.13">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.pil" version="1.1.7"/>

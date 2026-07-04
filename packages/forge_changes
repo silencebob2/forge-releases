@@ -1,3 +1,9 @@
+[COLOR dodgerblue][B]Version 0.2.13[/B][/COLOR]
+- Fixed Trakt watched status: after Trakt's recent API change, only the first ~100 watched movies and shows were syncing — your full watched history now syncs again.
+- Restored watched flags, episode indicators, and Next Episodes for large libraries.
+- After updating, clear the Trakt cache (Settings → Clear Cache → Trakt) to force a full re-sync.
+
+
 [COLOR dodgerblue][B]Version 0.2.12[/B][/COLOR]
 - Added Trakt Collection as a selectable Quick Add target.
 
